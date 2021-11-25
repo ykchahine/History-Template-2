@@ -3,31 +3,76 @@
     margin: 0;
 }
 
+html {background-color: rgb(255, 238, 145)}
+
 .Head-Title {
-    font-family: Helvetica, sans-serif; 
+    font-family: 'Times New Roman', Times, serif; 
     font-style: italic;
     font-weight: 1300;
-    background-color: lightcyan;
-    margin-bottom: auto;
+    background-color: rgb(255, 238, 145);
+    bottom: 80%;
     text-align: center;
 }
 
 .Head-Title img {
   float: justify;
-  width: 90px;
+  position: relative;
+  width: 50px;
   height: 50px;
   margin-right: 2px;
+  margin-top: 15px;
 }
 
 
 .FirstDirections {
     font-family: "Comic Sans MS", "Comic Sans";
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(255, 238, 145);
     font-style: oblique;
     font-weight: 600;
     margin-left: 10px;
 
 }
+
+.Pic-Choice{
+    
+    background-color: rgb(255, 238, 145);
+
+}
+
+.Pic-Question1{
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.George{
+    width: 300px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.George:hover{
+    transform: scale(1.2);
+ }
+
+.Abe{
+    width: 300px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.Abe:hover{
+     transform: scale(1.2);
+ }
+ 
+ .Ben{
+    width: 300px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.Ben:hover{
+     transform: scale(1.2);
+ }
 
 .text-center {
     text-align: justify;
