@@ -16,11 +16,26 @@
     </head>
 
     <body class = "History-Youssef">
-        <h1 class = "Head-Title">History Section <img src="https://soundsunderknown.s3.us-east-2.amazonaws.com/pencil.gif"/> </h1>
+        <h1 class = "Head-Title">History Section <img src="https://historytemplate.s3.us-east-2.amazonaws.com/book_flip.gif"> </h1>
 
         <br>
         
-
+        <div class = "Pic-Choice">
+            <div class = "FirstDirections">
+                <header> For the following questions pick the image that answers the following question. </header>
+            </div>
+            <br>
+                <section class = "Pic-Question1">
+                    <header>1. Who is the first president of the United States?</header>
+                    <form name = "word-Q1" form id = "Q1">
+                    <p><input type = "radio" id = "Q1-A" name = "question1" value = "George" id = "A"></p>
+                    <label for="A"> <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/george_w.png" class = "George"/> </label>
+                    <p><input type = "radio" id = "Q1-B"  name = "question1" value = "Abe" id = "B"> </p>
+                    <label for="B"> <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/abe_linc.png" class = "Abe"/> </label>
+                    <p><input type = "radio" id = "Q1-C" name = "question1" value = "Ben" id = "C"></p>
+                    <label for="C"> <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/ben_fr.png" class = "Ben"/> </label>
+                    </form> 
+                    <button onclick="submitAnswer_Q1()" class = "FirstSectionSubmit" button style="margin: 15px;">Submit Answer</button>
 
     </body>
 </html>
