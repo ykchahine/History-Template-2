@@ -26,16 +26,54 @@
             </div>
             <br>
                 <section class = "Pic-Question1">
-                    <header>1. Who is the first president of the United States?</header>
+                    <header style= "font-weight: bold"> 1. Who is the first president of the United States? </header>
                     <form name = "word-Q1" form id = "Q1">
-                    <p><input type = "radio" id = "Q1-A" name = "question1" value = "George" id = "A"></p>
-                    <label for="A"> <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/george_w.png" class = "George"/> </label>
-                    <p><input type = "radio" id = "Q1-B"  name = "question1" value = "Abe" id = "B"> </p>
-                    <label for="B"> <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/abe_linc.png" class = "Abe"/> </label>
-                    <p><input type = "radio" id = "Q1-C" name = "question1" value = "Ben" id = "C"></p>
-                    <label for="C"> <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/ben_fr.png" class = "Ben"/> </label>
+                    <p><input type = "radio" id = "Q1-A" name = "question1" value = "George"> </p>
+                   <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/george_w.png" class = "George"/>
+                    <p><input type = "radio" id = "Q1-B"  name = "question1" value = "Abe"> </p>
+                    <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/abe_linc.png" class = "Abe"/>
+                    <p><input type = "radio" id = "Q1-C" name = "question1" value = "Ben"> </p>
+                    <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/ben_fr.png" class = "Ben"/>
                     </form> 
                     <button onclick="submitAnswer_Q1()" class = "FirstSectionSubmit" button style="margin: 15px;">Submit Answer</button>
+                    <div id="QUESTION-VALIDATE-Q1" style=
+                    "color:green; font-size:18px; font-weight:bold;">
+                    </div>            
+                    <div id="QUESTION-VALIDATE-WRONG-Q1" style=
+                    "color:rgb(255, 0, 0); font-size:18px; font-weight:bold;">
+                    </div>
+                    <div id="QUESTION-NONE-Q1" style=
+                    "color:rgb(0, 162, 255); font-size:18px; font-weight:bold;">
+                    </div>
+                </section>
+                  </p>
+                  
+                  <br>
+                  
+                  <section class = "Pic-Question2">
+                      <header style= "font-weight: bold"> 2. Which ancient people built pyramids? </header>
+                      <form name = "word-Q2" form id = "Q2">
+                      <p><input type = "radio" id = "Q2-A" name = "question2" value = "Samurai"> </p>
+                     <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/samurai.png" class = "Samurai"/>
+                      <p><input type = "radio" id = "Q2-B"  name = "question2" value = "Pirates"> </p>
+                      <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/pirate.png" class = "Pirates"/>
+                      <p><input type = "radio" id = "Q2-C" name = "question2" value = "Egyptians"> </p>
+                      <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/egyptian.png" class = "Egyptians"/>
+                      </form> 
+                      <button onclick="submitAnswer_Q2()" class = "FirstSectionSubmit" button style="margin: 15px;">Submit Answer</button>
+                      <div id="QUESTION-VALIDATE-Q2" style=
+                      "color:green; font-size:18px; font-weight:bold;">
+                      </div>            
+                      <div id="QUESTION-VALIDATE-WRONG-Q2" style=
+                      "color:rgb(255, 0, 0); font-size:18px; font-weight:bold;">
+                      </div>
+                      <div id="QUESTION-NONE-Q2" style=
+                      "color:rgb(0, 162, 255); font-size:18px; font-weight:bold;">
+                      </div>
+                  </section>
+
+                  <br> 
+                  <br>
 
     </body>
 </html>
