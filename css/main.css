@@ -25,7 +25,7 @@ html {background-color: rgb(255, 238, 145)}
 
 
 .FirstDirections {
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(255, 238, 145);
     font-style: oblique;
     font-weight: 600;
@@ -44,9 +44,14 @@ html {background-color: rgb(255, 238, 145)}
     font-family: 'Times New Roman', Times, serif;
 }
 
+.Pic-Question2{
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .George{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     transition: transform .2s;
 }
 
@@ -55,8 +60,8 @@ html {background-color: rgb(255, 238, 145)}
  }
 
 .Abe{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     transition: transform .2s;
 }
 
@@ -64,15 +69,46 @@ html {background-color: rgb(255, 238, 145)}
      transform: scale(1.2);
  }
  
- .Ben{
-    width: 300px;
-    height: 300px;
+.Ben{
+    width: 200px;
+    height: 200px;
     transition: transform .2s;
 }
 
 .Ben:hover{
      transform: scale(1.2);
  }
+
+.Samurai{
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+}
+
+.Samurai:hover{
+    transform: scale(1.2);
+ }
+
+.Pirates{
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+}
+
+.Pirates:hover{
+    transform: scale(1.2);
+ }
+
+.Egyptians{
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+}
+
+.Egyptians:hover{
+    transform: scale(1.2);
+ }
+
 
 .text-center {
     text-align: justify;
