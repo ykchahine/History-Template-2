@@ -49,6 +49,20 @@ html {background-color: rgb(255, 238, 145)}
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+.Sound-Question{
+    
+    background-color: rgb(255, 238, 145);
+
+}
+
+.Sound-Question1{
+    
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 .George{
     width: 200px;
     height: 200px;
@@ -109,6 +123,41 @@ html {background-color: rgb(255, 238, 145)}
     transform: scale(1.2);
  }
 
+.Piano{
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.RadioButton_Q3_2{
+    float: right;
+}
+
+.Piano:hover{
+    transform: scale(1.2);
+}
+
+.Flute{
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+}
+
+.Flute:hover{
+    transform: scale(1.2);
+}
+
+.Trumpet{
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin-top: 100pt;
+}
+
+.Trumpet:hover{
+    transform: scale(1.2);
+}
 
 .text-center {
     text-align: justify;
