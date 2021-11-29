@@ -9,6 +9,10 @@
         <audio id="audio_correct" src="https://soundsunderknown.s3.us-east-2.amazonaws.com/pmd_correct.mp3"></audio>
         <audio id="audio_incorrect" src="https://soundsunderknown.s3.us-east-2.amazonaws.com/pmd_incorrect.mp3"></audio>
         <audio id="audio_none" src="https://soundsunderknown.s3.us-east-2.amazonaws.com/pmd_none.mp3"></audio>
+        <audio id="piano" src="https://historytemplate.s3.us-east-2.amazonaws.com/piano_sound.mp3"></audio>
+        <audio id="trumpet" src="https://historytemplate.s3.us-east-2.amazonaws.com/trumpet_sound.mp3"></audio>
+        <audio id="flute" src="https://historytemplate.s3.us-east-2.amazonaws.com/flute_sound.mp3"></audio>
+
 
         <!-- Bootstrap Tags -->
         <link rel="stylesheet" href="css/main.css">
@@ -74,6 +78,21 @@
 
                   <br> 
                   <br>
+
+                  <div class = "Sound-Question">
+                    <div class = "FirstDirections">
+                        <header> For the following questions pick the image that answers the following question (Bonus: Click the image to hear its sound!). </header>
+                    </div>
+                    <br>
+                        <section class = "Sound-Question1">
+                        <header style= "font-weight: bold"> 1. Which instrument did Beethoven commonly play? </header>
+                        <br>
+                            <input type = "radio" name = "question3" value = "Piano">
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/piano.png" class = "Piano" id = "flu" onclick = "sound_player()"/>
+                            <input type = "radio" name = "question3" value = "Flute" class = "RadioButton_Q3_2">
+                            <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/flute.png" class = "Flute"/>
+                            <input type = "radio" name = "question3" value = "Trumpet" class = "RadioButton_Q3_3">
+                            <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/trummpet.png" class = "Trumpet"/>                 
 
     </body>
 </html>
