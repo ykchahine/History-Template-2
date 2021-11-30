@@ -87,12 +87,26 @@
                         <section class = "Sound-Question1">
                         <header style= "font-weight: bold"> 1. Which instrument did Beethoven commonly play? </header>
                         <br>
-                            <input type = "radio" name = "question3" value = "Piano">
-                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/piano.png" class = "Piano" id = "flu" onclick = "sound_player()"/>
+                        <br>
+                            <input type = "radio" name = "question3" value = "Piano" class = "RadioButton_Q3_1"> 
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/piano.png" class = "Piano" onclick = "piano_player()"/> 
                             <input type = "radio" name = "question3" value = "Flute" class = "RadioButton_Q3_2">
-                            <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/flute.png" class = "Flute"/>
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/flute.png" class = "Flute" onclick = "flute_player()"/>
                             <input type = "radio" name = "question3" value = "Trumpet" class = "RadioButton_Q3_3">
-                            <img src = "https://historytemplate.s3.us-east-2.amazonaws.com/trummpet.png" class = "Trumpet"/>                 
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/trummpet.png" class = "Trumpet" onclick="trumpet_player()"/>
+                            <br>
+                            <br>
+                            <button onclick="submitAnswer_Q3()" class = "SecondSection_Submit" button style="margin: 15px;">Submit Answer</button>
+                            <div id="QUESTION-VALIDATE-Q3" style=
+                            "color:green; font-size:18px; font-weight:bold;">
+                            </div>            
+                            <div id="QUESTION-VALIDATE-WRONG-Q3" style=
+                            "color:rgb(255, 0, 0); font-size:18px; font-weight:bold;">
+                            </div>
+                            <div id="QUESTION-NONE-Q3" style=
+                            "color:rgb(0, 162, 255); font-size:18px; font-weight:bold;">
+                            </div>
+                    </section>              
 
     </body>
 </html>
