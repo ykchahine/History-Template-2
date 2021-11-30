@@ -12,6 +12,10 @@
         <audio id="piano" src="https://historytemplate.s3.us-east-2.amazonaws.com/piano_sound.mp3"></audio>
         <audio id="trumpet" src="https://historytemplate.s3.us-east-2.amazonaws.com/trumpet_sound.mp3"></audio>
         <audio id="flute" src="https://historytemplate.s3.us-east-2.amazonaws.com/flute_sound.mp3"></audio>
+        <audio id="bulb" src="https://historytemplate.s3.us-east-2.amazonaws.com/bulb.mp3"></audio>
+        <audio id="wheel" src="https://historytemplate.s3.us-east-2.amazonaws.com/spin_wheel.mp3"></audio>
+        <audio id="plane" src="https://historytemplate.s3.us-east-2.amazonaws.com/plane.mp3"></audio>
+
 
 
         <!-- Bootstrap Tags -->
@@ -85,7 +89,7 @@
                     </div>
                     <br>
                         <section class = "Sound-Question1">
-                        <header style= "font-weight: bold"> 1. Which instrument did Beethoven commonly play? </header>
+                        <header style= "font-weight: bold"> 3. Which instrument did Beethoven commonly play? </header>
                         <br>
                         <br>
                             <input type = "radio" name = "question3" value = "Piano" class = "RadioButton_Q3_1"> 
@@ -106,7 +110,31 @@
                             <div id="QUESTION-NONE-Q3" style=
                             "color:rgb(0, 162, 255); font-size:18px; font-weight:bold;">
                             </div>
-                    </section>              
-
+                    </section>
+                    <br>
+                    
+                    <section class = "Sound-Question2">
+                        <header style= "font-weight: bold"> 4. Which invention is Thomas Edison is famously known for? </header>
+                        <br>
+                        <br>
+                            <input type = "radio" name = "question4" value = "Wheel" class = "RadioButton_Q4_1"> 
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/wheel.png" class = "Wheel" onclick = "wheel_player()"/>
+                            <input type = "radio" name = "question4" value = "Bulb" class = "RadioButton_Q4_2"> 
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/lightbulb.gif" class = "Bulb" onclick = "bulb_player()"/>
+                            <input type = "radio" name = "question4" value = "Plane" class = "RadioButton_Q4_3"> 
+                            <input type = "image" src = "https://historytemplate.s3.us-east-2.amazonaws.com/airplane.png" class = "Plane" onclick = "plane_player()"/>
+                            <br>
+                            <br>
+                            <button onclick="submitAnswer_Q4()" class = "SecondSection_Submit" button style="margin: 15px;">Submit Answer</button>
+                            <div id="QUESTION-VALIDATE-Q4" style=
+                            "color:green; font-size:18px; font-weight:bold;">
+                            </div>            
+                            <div id="QUESTION-VALIDATE-WRONG-Q4" style=
+                            "color:rgb(255, 0, 0); font-size:18px; font-weight:bold;">
+                            </div>
+                            <div id="QUESTION-NONE-Q4" style=
+                            "color:rgb(0, 162, 255); font-size:18px; font-weight:bold;">
+                            </div> 
+                   </section>
     </body>
 </html>
