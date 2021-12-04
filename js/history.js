@@ -56,9 +56,9 @@ var submitAnswer_Q1 = function() {
           }
         
       else {
-        document.getElementById("QUESTION-VALIDATE-Q2").innerHTML = ""
-        document.getElementById("QUESTION-NONE-Q2").innerHTML = "";
-        document.getElementById("QUESTION-VALIDATE-WRONG-Q2").innerHTML = "Incorrect! Try again!";
+        document.getElementById("QUESTION-VALIDATE-Q1").innerHTML = ""
+        document.getElementById("QUESTION-NONE-Q1").innerHTML = "";
+        document.getElementById("QUESTION-VALIDATE-WRONG-Q1").innerHTML = "Incorrect! Try again!";
         var audio = document.getElementById("audio_incorrect");
         audio.play();
           }
